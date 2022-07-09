@@ -1,0 +1,15 @@
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\bin\Debug\netstandard2.0\SwipeNew.deps.json
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\bin\Debug\netstandard2.0\SwipeNew.dll
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\bin\Debug\netstandard2.0\SwipeNew.pdb
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.csproj.AssemblyReference.cache
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.AssemblyInfoInputs.cache
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.AssemblyInfo.cs
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.csproj.CoreCompileInputs.cache
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\XamlC.stamp
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.dll
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\refint\SwipeNew.dll
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\SwipeNew.pdb
+D:\MyProjects\SwipeNew\SwipeNew\SwipeNew\obj\Debug\netstandard2.0\ref\SwipeNew.dll

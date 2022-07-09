@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:swipeCardView="clr-namespace:MLToolkit.Forms.SwipeCardView;assembly=MLToolkit.Forms.SwipeCardView"
+             x:Class="SwipeNew.MainPage"
+             BackgroundColor="#beb5ff">
+
+    <StackLayout>
+        <swipeCardView:SwipeCardView
+            x:Name="SwipeView1" ItemsSource="{Binding Profiles}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+            Padding="10" SupportedSwipeDirections="Left,Right,Up">
+            <swipeCardView:SwipeCardView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Frame CornerRadius="10" Padding="8" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <AbsoluteLayout>
+                                <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+                                </Image>
+                            </AbsoluteLayout>
+                        </Frame>
+                        <Label FontSize="Large" FontAttributes="Bold" TextColor="White"
+                               AbsoluteLayout.LayoutBounds="0.1,0.95,150, 30" AbsoluteLayout.LayoutFlags="PositionProportional">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding Name}"></Span>
+                                    <Span Text=", "></Span>
+                                    <Span Text="{Binding Age}"></Span>
+
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </DataTemplate>
+            </swipeCardView:SwipeCardView.ItemTemplate>
+        </swipeCardView:SwipeCardView>
+    </StackLayout>
+
+</ContentPage>
